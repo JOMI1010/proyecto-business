@@ -1,28 +1,35 @@
 body{
-    background-color: rgb(42, 99, 163);
     color: white;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container{
-    background-image:url(imgs/fondo.png);
-    
+    background-image:url(imgs/fondo.png);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    padding: 0;
+    padding: 0;    
 }
-
 .header1 {
+    display: flex;
+    justify-content: space-between;
     background-color: #011031;
     color: white;
-    padding: 10px 0;
+    padding: 0 150px 0 150px;
     text-align: center;
+    align-items: center;
 }
+
+.subheader {
+    display: flex;
+    align-items: center;
+    gap: 15px;}
 
 .header2 {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 10px 100px 10px 100px;
     background-color: #ffffff;
@@ -30,6 +37,7 @@ body{
     width: auto;
     height: 60px;
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
@@ -39,4 +47,5 @@ h2 {
 h1 {
     margin: 0;
 }
+
 
