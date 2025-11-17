@@ -9,8 +9,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
-    padding: 0;    
+    min-height: 50vh;
+    color: #011b58;
+    padding: 250px 0 0 420px;    
 }
 .header1 {
     display: flex;
@@ -48,4 +49,61 @@ h1 {
     margin: 0;
 }
 
+.textoG {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
+.textoG p{
+    margin: 8px 0 8px 0;
+}
+
+button {
+    background-color: #ffffff;
+    color: #011b58;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pie {
+    display: flex;
+    background-color: #011b58;
+    justify-content: center;
+    padding: 20px 300px 20px 400px
+}
+
+.pie h3 {
+    border-right: #ffffff 2px solid;
+    width: 200px;
+    padding: 0 50px 0 0;
+}
+
+.pie p {
+    font-size: smaller;
+    width: 450px;
+    padding: 0 50px 0 50px;
+}
+
+.pie button {
+    background-color: #ffffff;
+    color: #011b58;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.abajo {
+    color: black;
+    text-align: center;
+    padding-top: 65px ;    
+    height: 50px;
+}
