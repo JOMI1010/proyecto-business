@@ -1,7 +1,14 @@
 body{
+    display: flex;
+    justify-content: center;
+    background-color: #011b58;
     color: white;
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+.todo {
+    background-color: #011b58;
 }
 
 .container{
@@ -11,7 +18,7 @@ body{
     background-size: cover;
     min-height: 50vh;
     color: #011b58;
-    padding: 250px 0 0 380px;    
+    padding: 250px 0 0 270px;    
 }
 .header1 {
     display: flex;
@@ -102,6 +109,7 @@ button {
 }
 
 .abajo {
+    background-color: #ffffff;
     color: black;
     text-align: center;
     padding-top: 65px ;    
