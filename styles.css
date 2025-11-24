@@ -18,14 +18,14 @@ body{
     background-size: cover;
     min-height: 50vh;
     color: #011b58;
-    padding: 250px 0 0 270px;    
+    padding: 250px 0 60px 300px;    
 }
 .header1 {
     display: flex;
     justify-content: space-between;
     background-color: #011031;
     color: white;
-    padding: 0 150px 0 150px;
+    padding: 0 300px 0 300px;
     text-align: center;
     align-items: center;
 }
@@ -39,7 +39,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 100px 10px 100px;
+    padding: 10px 300px 10px 300px;
     background-color: #ffffff;
     color: #747474;
     width: auto;
@@ -81,7 +81,7 @@ button {
     display: flex;
     background-color: #011b58;
     justify-content: center;
-    padding: 20px 300px 20px 400px
+    padding: 20px 300px 20px 300px
 }
 
 .pie h3 {
