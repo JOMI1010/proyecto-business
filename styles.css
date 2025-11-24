@@ -115,3 +115,11 @@ button {
     padding-top: 65px ;    
     height: 50px;
 }
+
+.logos {
+}
+.logos img {
+    margin: 0 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
